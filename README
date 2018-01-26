@@ -1,0 +1,10 @@
+How to do knitr and standalone?!
+
+The key to success is to detach the preamble of knitr to a separate file!
+
+But this has some disadvantage: The preamble of the standalone files can not be
+read files.
+
+But, you can of course create a shared preable for all the files and input it in
+the preamble of each file. Make sure that you do not include the knitr preamble
+in Rtex files!
