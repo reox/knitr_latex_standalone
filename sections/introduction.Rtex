@@ -1,0 +1,14 @@
+\documentclass[float=false, crop=false]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{import}
+%% begin.rcode setup, include=FALSE
+% library(knitr)
+% opts_chunk$set(fig.path='figure/latex-', cache.path='cache/latex-')
+%% end.rcode
+\begin{document}
+This is a knitted document
+%% begin.rcode cairo-scatter, dev='cairo_pdf', fig.width=5, fig.height=5, out.width='.8\\textwidth'
+% plot(cars) # a scatter plot
+%% end.rcode
+\end{document}
